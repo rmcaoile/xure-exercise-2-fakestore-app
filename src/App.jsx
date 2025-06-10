@@ -111,10 +111,11 @@ function App() {
           [...Array(6)].map((_, i) => (
             <Card key={i} className="pt-5 pb-2 bg-white">
               <CardContent className="p-4 space-y-2">
-                <div className="w-full h-48 bg-gray-200 rounded mb-4" />
-                <div className="h-6 w-3/4 bg-gray-200 rounded" />
-                <div className="h-4 w-1/2 bg-gray-200 rounded" />
-                <div className="h-4 w-1/4 bg-gray-200 rounded" />
+                <Skeleton className="w-full h-48 rounded mb-4" />
+                <Skeleton className="h-6 w-3/4" />
+                <Skeleton className="h-4 w-1/2" />
+                <Skeleton className="h-4 w-1/4" />
+                <Skeleton className="h-4 w-1/8" />
               </CardContent>
             </Card>
           ))
