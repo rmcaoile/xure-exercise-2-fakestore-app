@@ -108,7 +108,7 @@ function App() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {loading ? (
-          [...Array(6)].map((_, i) => (
+          [...Array(12)].map((_, i) => (
             <Card key={i} className="pt-5 pb-2 bg-white">
               <CardContent className="p-4 space-y-2">
                 <Skeleton className="w-full h-48 rounded mb-4" />
